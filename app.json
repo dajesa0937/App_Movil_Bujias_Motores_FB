@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "bujiamar",
+    "name": "BujíaMar",
     "slug": "bujiamar",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -20,6 +20,13 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "scheme": "bujiamar",
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
     }
   }
 }
