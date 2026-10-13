@@ -34,6 +34,7 @@ export default function Detalle() {
 
       <View style={s.tabla}>
         <Fila k="Tiempos" v={e.tiempos} />
+        {e.categoria === 'fuera_de_borda' && <Fila k="Potencia (según el modelo)" v={e.potenciaTexto} />}
         <Fila k="Motor" v={e.motor && e.motor !== '—' ? e.motor : null} />
         <Fila k="Luz del electrodo (gap)" v={e.gap ? `${e.gap} mm` : null} />
         <Fila k="Torque de apriete" v={e.torque ? `${e.torque} N·m` : null} />

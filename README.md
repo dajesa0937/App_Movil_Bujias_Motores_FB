@@ -29,10 +29,13 @@ npm test
 - `src/app/` — pantallas (Expo Router): Inicio, Consulta, Catálogo, Resultados, Detalle
 - `src/config.ts` — número de WhatsApp del vendedor (vacío por ahora)
 
+## Potencia (HP)
+
+El libro no tiene columna de potencia; `scripts/xlsx_a_json.py` la extrae del propio nombre del modelo (DF60A → 60 HP, «FourStroke 75–115» → rango 75–115 HP). Si el nombre no indica HP (motos acuáticas, Parsun LT7) queda vacío: no se estima. Conviene añadir la columna al Excel para tener el dato oficial.
+
 ## Pendiente
 
 - Año del motor: el catálogo no trae año por separado (a veces va dentro del nombre del modelo), por eso el flujo es Tipo → Marca → Modelo.
-- Potencia (HP) como filtro: requiere agregar esa columna al catálogo.
 - Fotos de producto, precios y carrito: no hay datos reales aún; el precio se muestra como «Consultar».
 - Validación contra catálogos del fabricante para las filas «Por equivalencia» / «Verificar».
 - Pestaña Perfil, favoritos, mantenimiento y cuidados de la bujía.

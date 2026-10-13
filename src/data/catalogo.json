@@ -6,6 +6,11 @@
   "modelo": "DF2.5S",
   "tiempos": "4T",
   "motor": "1 cil.",
+  "potenciaTexto": "2.5 HP",
+  "potenciaValores": [
+   2.5
+  ],
+  "potenciaRangos": [],
   "bujia": "CR6HSA",
   "gap": "0.6–0.7",
   "torque": "11",
@@ -22,6 +27,11 @@
   "modelo": "DF6AS",
   "tiempos": "4T",
   "motor": "1 cil.",
+  "potenciaTexto": "6 HP",
+  "potenciaValores": [
+   6
+  ],
+  "potenciaRangos": [],
   "bujia": "CPR6EA-9",
   "gap": "0.8–0.9",
   "torque": "10–12",
@@ -38,6 +48,11 @@
   "modelo": "DF20AS/AL",
   "tiempos": "4T",
   "motor": "2 cil.",
+  "potenciaTexto": "20 HP",
+  "potenciaValores": [
+   20
+  ],
+  "potenciaRangos": [],
   "bujia": "MR6K-9",
   "gap": "0.8–0.9",
   "torque": "11",
@@ -54,6 +69,11 @@
   "modelo": "DF60AQHL/ATL",
   "tiempos": "4T",
   "motor": "4 cil.",
+  "potenciaTexto": "60 HP",
+  "potenciaValores": [
+   60
+  ],
+  "potenciaRangos": [],
   "bujia": "DCPR6E",
   "gap": "0.8–0.9",
   "torque": "18",
@@ -70,6 +90,11 @@
   "modelo": "DF90ATL/ATX, DF90AWQHL/AWQHX",
   "tiempos": "4T",
   "motor": "4 cil.",
+  "potenciaTexto": "90 HP",
+  "potenciaValores": [
+   90
+  ],
+  "potenciaRangos": [],
   "bujia": "DCPR6E",
   "gap": "0.8–0.9",
   "torque": "18",
@@ -86,6 +111,11 @@
   "modelo": "DF115BTL/BTX (Stealth/blanco)",
   "tiempos": "4T",
   "motor": "4 cil.",
+  "potenciaTexto": "115 HP",
+  "potenciaValores": [
+   115
+  ],
+  "potenciaRangos": [],
   "bujia": "LKR6E",
   "gap": "0.8–0.9",
   "torque": "17",
@@ -102,6 +132,11 @@
   "modelo": "DF150ATL/ATX/AZX",
   "tiempos": "4T",
   "motor": "4 cil.",
+  "potenciaTexto": "150 HP",
+  "potenciaValores": [
+   150
+  ],
+  "potenciaRangos": [],
   "bujia": "LKR6E",
   "gap": "0.8–0.9",
   "torque": "17",
@@ -118,6 +153,11 @@
   "modelo": "DF200TL/TX/ZX",
   "tiempos": "4T",
   "motor": "V6, 3.614 cc",
+  "potenciaTexto": "200 HP",
+  "potenciaValores": [
+   200
+  ],
+  "potenciaRangos": [],
   "bujia": "BKR6E",
   "gap": "0.7–0.8",
   "torque": "28",
@@ -134,6 +174,11 @@
   "modelo": "DF250TX/ZX/TXX/ZXX",
   "tiempos": "4T",
   "motor": "V6",
+  "potenciaTexto": "250 HP",
+  "potenciaValores": [
+   250
+  ],
+  "potenciaRangos": [],
   "bujia": "BKR6E",
   "gap": "0.7–0.8",
   "torque": "28",
@@ -150,6 +195,11 @@
   "modelo": "DF300APX/APXX (Stealth/blanco)",
   "tiempos": "4T",
   "motor": "V6",
+  "potenciaTexto": "300 HP",
+  "potenciaValores": [
+   300
+  ],
+  "potenciaRangos": [],
   "bujia": "BKR6E",
   "gap": "0.7–0.8",
   "torque": "28",
@@ -166,6 +216,11 @@
   "modelo": "DF325ATX/ATXX (blanco)",
   "tiempos": "4T",
   "motor": "V6",
+  "potenciaTexto": "325 HP",
+  "potenciaValores": [
+   325
+  ],
+  "potenciaRangos": [],
   "bujia": "ILZKR7D8",
   "gap": "0.7–0.8",
   "torque": "17",
@@ -182,6 +237,11 @@
   "modelo": "DT30S/L",
   "tiempos": "2T",
   "motor": "2 cil.",
+  "potenciaTexto": "30 HP",
+  "potenciaValores": [
+   30
+  ],
+  "potenciaRangos": [],
   "bujia": "BR7HS-10",
   "gap": "1.0",
   "torque": null,
@@ -198,6 +258,13 @@
   "modelo": "DF4/5/6 (2002–2010)",
   "tiempos": "4T",
   "motor": "1 cil.",
+  "potenciaTexto": "4 / 5 / 6 HP",
+  "potenciaValores": [
+   4,
+   5,
+   6
+  ],
+  "potenciaRangos": [],
   "bujia": "BPR6ES",
   "gap": "0.7–0.8",
   "torque": null,
@@ -214,6 +281,13 @@
   "modelo": "DF4A/5A/6A (2011+)",
   "tiempos": "4T",
   "motor": "1 cil.",
+  "potenciaTexto": "4 / 5 / 6 HP",
+  "potenciaValores": [
+   4,
+   5,
+   6
+  ],
+  "potenciaRangos": [],
   "bujia": "CPR6EA-9",
   "gap": "0.8–0.9",
   "torque": null,
@@ -230,6 +304,12 @@
   "modelo": "DF8A/9.9A (2010+)",
   "tiempos": "4T",
   "motor": "2 cil.",
+  "potenciaTexto": "8 / 9.9 HP",
+  "potenciaValores": [
+   8,
+   9.9
+  ],
+  "potenciaRangos": [],
   "bujia": "CR6E",
   "gap": "0.7–0.8",
   "torque": null,
@@ -246,6 +326,12 @@
   "modelo": "DF9.9/15 carburados (2005–2010)",
   "tiempos": "4T",
   "motor": "2 cil.",
+  "potenciaTexto": "9.9 / 15 HP",
+  "potenciaValores": [
+   9.9,
+   15
+  ],
+  "potenciaRangos": [],
   "bujia": "BKR6E",
   "gap": "0.7–0.8",
   "torque": null,
@@ -262,6 +348,13 @@
   "modelo": "DF9.9B/15A/20A (2013–2017)",
   "tiempos": "4T",
   "motor": "2 cil.",
+  "potenciaTexto": "9.9 / 15 / 20 HP",
+  "potenciaValores": [
+   9.9,
+   15,
+   20
+  ],
+  "potenciaRangos": [],
   "bujia": "CPR6EA-9",
   "gap": "0.8–0.9",
   "torque": null,
@@ -278,6 +371,12 @@
   "modelo": "DF25/30 (2000–2004)",
   "tiempos": "4T",
   "motor": "3 cil.",
+  "potenciaTexto": "25 / 30 HP",
+  "potenciaValores": [
+   25,
+   30
+  ],
+  "potenciaRangos": [],
   "bujia": "DCPR6E",
   "gap": "0.7",
   "torque": null,
@@ -294,6 +393,12 @@
   "modelo": "DF40/50 y DF40A/50A",
   "tiempos": "4T",
   "motor": "—",
+  "potenciaTexto": "40 / 50 HP",
+  "potenciaValores": [
+   40,
+   50
+  ],
+  "potenciaRangos": [],
   "bujia": "DCPR6E",
   "gap": "0.8–0.9",
   "torque": null,
@@ -310,6 +415,12 @@
   "modelo": "DF60/70 (1998–2009)",
   "tiempos": "4T",
   "motor": "—",
+  "potenciaTexto": "60 / 70 HP",
+  "potenciaValores": [
+   60,
+   70
+  ],
+  "potenciaRangos": [],
   "bujia": "BPR6ES",
   "gap": "0.7–0.8",
   "torque": null,
@@ -326,6 +437,14 @@
   "modelo": "DF70A/80A/90A/100B (2009+)",
   "tiempos": "4T",
   "motor": "—",
+  "potenciaTexto": "70 / 80 / 90 / 100 HP",
+  "potenciaValores": [
+   70,
+   80,
+   90,
+   100
+  ],
+  "potenciaRangos": [],
   "bujia": "DCPR6E",
   "gap": "0.8–0.9",
   "torque": null,
@@ -342,6 +461,14 @@
   "modelo": "DF90 sin 'A', DF100A/115A/140A",
   "tiempos": "4T",
   "motor": "—",
+  "potenciaTexto": "90 / 100 / 115 / 140 HP",
+  "potenciaValores": [
+   90,
+   100,
+   115,
+   140
+  ],
+  "potenciaRangos": [],
   "bujia": "BKR6E",
   "gap": "0.7–0.8",
   "torque": null,
@@ -358,6 +485,12 @@
   "modelo": "DF115B/140B",
   "tiempos": "4T",
   "motor": "4 cil.",
+  "potenciaTexto": "115 / 140 HP",
+  "potenciaValores": [
+   115,
+   140
+  ],
+  "potenciaRangos": [],
   "bujia": "LKR6E",
   "gap": "0.8–0.9",
   "torque": null,
@@ -374,6 +507,12 @@
   "modelo": "DF150/175 sin 'AP'",
   "tiempos": "4T",
   "motor": "—",
+  "potenciaTexto": "150 / 175 HP",
+  "potenciaValores": [
+   150,
+   175
+  ],
+  "potenciaRangos": [],
   "bujia": "BKR6E",
   "gap": "0.7–0.8",
   "torque": null,
@@ -390,6 +529,12 @@
   "modelo": "DT2/2.2",
   "tiempos": "2T",
   "motor": "1 cil.",
+  "potenciaTexto": "2 / 2.2 HP",
+  "potenciaValores": [
+   2,
+   2.2
+  ],
+  "potenciaRangos": [],
   "bujia": "BR5HS",
   "gap": "0.5–0.6",
   "torque": null,
@@ -406,6 +551,14 @@
   "modelo": "DT4/5/6/8 (desde 1986)",
   "tiempos": "2T",
   "motor": "—",
+  "potenciaTexto": "4 / 5 / 6 / 8 HP",
+  "potenciaValores": [
+   4,
+   5,
+   6,
+   8
+  ],
+  "potenciaRangos": [],
   "bujia": "BPR6HS",
   "gap": "0.6",
   "torque": null,
@@ -422,6 +575,13 @@
   "modelo": "DT9.9/15/16 (2 cil.)",
   "tiempos": "2T",
   "motor": "2 cil.",
+  "potenciaTexto": "9.9 / 15 / 16 HP",
+  "potenciaValores": [
+   9.9,
+   15,
+   16
+  ],
+  "potenciaRangos": [],
   "bujia": "BR7HS",
   "gap": "0.7",
   "torque": null,
@@ -438,6 +598,14 @@
   "modelo": "DT15C/E, DT20/25E/30",
   "tiempos": "2T",
   "motor": "—",
+  "potenciaTexto": "15 / 20 / 25 / 30 HP",
+  "potenciaValores": [
+   15,
+   20,
+   25,
+   30
+  ],
+  "potenciaRangos": [],
   "bujia": "BR7HS-10",
   "gap": "1.0",
   "torque": null,
@@ -454,6 +622,12 @@
   "modelo": "DT40/50",
   "tiempos": "2T",
   "motor": "—",
+  "potenciaTexto": "40 / 50 HP",
+  "potenciaValores": [
+   40,
+   50
+  ],
+  "potenciaRangos": [],
   "bujia": "BR8HS",
   "gap": "0.7–0.8",
   "torque": null,
@@ -470,6 +644,13 @@
   "modelo": "DT55/60/75C",
   "tiempos": "2T",
   "motor": "—",
+  "potenciaTexto": "55 / 60 / 75 HP",
+  "potenciaValores": [
+   55,
+   60,
+   75
+  ],
+  "potenciaRangos": [],
   "bujia": "BR8HS-10",
   "gap": "1.0",
   "torque": null,
@@ -486,6 +667,12 @@
   "modelo": "DT115/140 carburados",
   "tiempos": "2T",
   "motor": "—",
+  "potenciaTexto": "115 / 140 HP",
+  "potenciaValores": [
+   115,
+   140
+  ],
+  "potenciaRangos": [],
   "bujia": "BR8HS",
   "gap": "0.7–0.8",
   "torque": null,
@@ -502,6 +689,16 @@
   "modelo": "DT115S/140 EFI, DT150/175/200/225 V6",
   "tiempos": "2T",
   "motor": "—",
+  "potenciaTexto": "115 / 140 / 150 / 175 / 200 / 225 HP",
+  "potenciaValores": [
+   115,
+   140,
+   150,
+   175,
+   200,
+   225
+  ],
+  "potenciaRangos": [],
   "bujia": "BR8HS-10",
   "gap": "1.0",
   "torque": null,
@@ -518,6 +715,11 @@
   "modelo": "F6C (F6CMHS-E)",
   "tiempos": "4T",
   "motor": "1 cil.",
+  "potenciaTexto": "6 HP",
+  "potenciaValores": [
+   6
+  ],
+  "potenciaRangos": [],
   "bujia": "CR6HSB",
   "gap": "0.6–0.7",
   "torque": null,
@@ -534,6 +736,11 @@
   "modelo": "F20C (F20CMHS/HL-E)",
   "tiempos": "4T",
   "motor": "2 cil.",
+  "potenciaTexto": "20 HP",
+  "potenciaValores": [
+   20
+  ],
+  "potenciaRangos": [],
   "bujia": "DPR6EB-9",
   "gap": "0.8–0.9",
   "torque": null,
@@ -550,6 +757,11 @@
   "modelo": "FT60J (FT60JEHDL/X, FT60JETL/X)",
   "tiempos": "4T",
   "motor": "4 cil., 996 cc",
+  "potenciaTexto": "60 HP",
+  "potenciaValores": [
+   60
+  ],
+  "potenciaRangos": [],
   "bujia": "DPR6EB-9",
   "gap": "0.8–0.9",
   "torque": null,
@@ -566,6 +778,11 @@
   "modelo": "F100G (F100GETL/X, F100GEHTL/X)",
   "tiempos": "4T",
   "motor": "4 cil., 1.832 cc",
+  "potenciaTexto": "100 HP",
+  "potenciaValores": [
+   100
+  ],
+  "potenciaRangos": [],
   "bujia": "LKR6E-9N",
   "gap": "0.9",
   "torque": null,
@@ -582,6 +799,11 @@
   "modelo": "F(L)115B (F115BETL/X, FL115BETX)",
   "tiempos": "4T",
   "motor": "4 cil., 1.832 cc",
+  "potenciaTexto": "115 HP",
+  "potenciaValores": [
+   115
+  ],
+  "potenciaRangos": [],
   "bujia": "LKR6E",
   "gap": "0.9",
   "torque": null,
@@ -598,6 +820,11 @@
   "modelo": "F(L)150F (F150FETX-E, FL150FETX-E)",
   "tiempos": "4T",
   "motor": "4 cil., 2.670 cc",
+  "potenciaTexto": "150 HP",
+  "potenciaValores": [
+   150
+  ],
+  "potenciaRangos": [],
   "bujia": "LFR5A-11",
   "gap": "1.0–1.1",
   "torque": null,
@@ -614,6 +841,11 @@
   "modelo": "F(L)200B (F200BETX-E, FL200BETX-E)",
   "tiempos": "4T",
   "motor": "V6, 3.352 cc",
+  "potenciaTexto": "200 HP",
+  "potenciaValores": [
+   200
+  ],
+  "potenciaRangos": [],
   "bujia": "LFR6A-11",
   "gap": "1.0–1.1",
   "torque": null,
@@ -630,6 +862,11 @@
   "modelo": "F(L)200S (F200SETX, FL200SETX)",
   "tiempos": "4T",
   "motor": "V6, 4.169 cc",
+  "potenciaTexto": "200 HP",
+  "potenciaValores": [
+   200
+  ],
+  "potenciaRangos": [],
   "bujia": "LFR6A-11",
   "gap": "1.0–1.1",
   "torque": null,
@@ -646,6 +883,11 @@
   "modelo": "F250H (F250HETX/ETU, FL250HETX)",
   "tiempos": "4T",
   "motor": "V6, 3.352 cc",
+  "potenciaTexto": "250 HP",
+  "potenciaValores": [
+   250
+  ],
+  "potenciaRangos": [],
   "bujia": "LFR6A-11",
   "gap": "1.0–1.1",
   "torque": null,
@@ -662,6 +904,11 @@
   "modelo": "F(L)250S (F250SETX, FL250SETX/ETU)",
   "tiempos": "4T",
   "motor": "V6, 4.169 cc",
+  "potenciaTexto": "250 HP",
+  "potenciaValores": [
+   250
+  ],
+  "potenciaRangos": [],
   "bujia": "LFR6A-11",
   "gap": "1.0–1.1",
   "torque": null,
@@ -678,6 +925,11 @@
   "modelo": "F(L)300D (F300DETX/ETU, FL300DETX/ETU)",
   "tiempos": "4T",
   "motor": "V6, 4.169 cc",
+  "potenciaTexto": "300 HP",
+  "potenciaValores": [
+   300
+  ],
+  "potenciaRangos": [],
   "bujia": "LFR6A-11",
   "gap": "1.0–1.1",
   "torque": null,
@@ -694,6 +946,11 @@
   "modelo": "F(L)300G (F300GETX/ETU, FL300GETX)",
   "tiempos": "4T",
   "motor": "V6, 4.169 cc",
+  "potenciaTexto": "300 HP",
+  "potenciaValores": [
+   300
+  ],
+  "potenciaRangos": [],
   "bujia": "LFR6A-11",
   "gap": "1.0–1.1",
   "torque": null,
@@ -710,6 +967,11 @@
   "modelo": "F350B V6 (F350BST)",
   "tiempos": "4T",
   "motor": "V6, 4.256 cc",
+  "potenciaTexto": "350 HP",
+  "potenciaValores": [
+   350
+  ],
+  "potenciaRangos": [],
   "bujia": "ILMAR7E-9",
   "gap": "0.8–0.9",
   "torque": null,
@@ -726,6 +988,11 @@
   "modelo": "E15D (E15DMHS/HL)",
   "tiempos": "2T",
   "motor": "2 cil., 246 cc",
+  "potenciaTexto": "15 HP",
+  "potenciaValores": [
+   15
+  ],
+  "potenciaRangos": [],
   "bujia": "B8HS-10",
   "gap": "1.0",
   "torque": null,
@@ -742,6 +1009,11 @@
   "modelo": "E40J (E40JMHS/HL)",
   "tiempos": "2T",
   "motor": "2 cil., 669 cc",
+  "potenciaTexto": "40 HP",
+  "potenciaValores": [
+   40
+  ],
+  "potenciaRangos": [],
   "bujia": "B7HS",
   "gap": "0.6–0.7",
   "torque": null,
@@ -758,6 +1030,11 @@
   "modelo": "E40X (E40XMHS/HL-E)",
   "tiempos": "2T",
   "motor": "2 cil.",
+  "potenciaTexto": "40 HP",
+  "potenciaValores": [
+   40
+  ],
+  "potenciaRangos": [],
   "bujia": "B7HS",
   "gap": "0.7",
   "torque": null,
@@ -774,6 +1051,11 @@
   "modelo": "E75B (E75BMHDL/X)",
   "tiempos": "2T",
   "motor": "3 cil., 1.140 cc",
+  "potenciaTexto": "75 HP",
+  "potenciaValores": [
+   75
+  ],
+  "potenciaRangos": [],
   "bujia": "B8HS-10",
   "gap": "1.0",
   "torque": null,
@@ -790,6 +1072,11 @@
   "modelo": "F15 (histórico)",
   "tiempos": "4T",
   "motor": "2 cil.",
+  "potenciaTexto": "15 HP",
+  "potenciaValores": [
+   15
+  ],
+  "potenciaRangos": [],
   "bujia": "DPR6EA-9",
   "gap": "0.8",
   "torque": null,
@@ -806,6 +1093,12 @@
   "modelo": "F15C / F20 carburados",
   "tiempos": "4T",
   "motor": "2 cil.",
+  "potenciaTexto": "15 / 20 HP",
+  "potenciaValores": [
+   15,
+   20
+  ],
+  "potenciaRangos": [],
   "bujia": "DPR6EB-9",
   "gap": "0.8–0.9",
   "torque": null,
@@ -822,6 +1115,13 @@
   "modelo": "F40 / F50 / F60 (histórico)",
   "tiempos": "4T",
   "motor": "—",
+  "potenciaTexto": "40 / 50 / 60 HP",
+  "potenciaValores": [
+   40,
+   50,
+   60
+  ],
+  "potenciaRangos": [],
   "bujia": "DPR6EB-9",
   "gap": "0.9",
   "torque": null,
@@ -838,6 +1138,14 @@
   "modelo": "F75 / F80 / F90 / F100 (histórico)",
   "tiempos": "4T",
   "motor": "4 cil.",
+  "potenciaTexto": "75 / 80 / 90 / 100 HP",
+  "potenciaValores": [
+   75,
+   80,
+   90,
+   100
+  ],
+  "potenciaRangos": [],
   "bujia": "LFR5A-11",
   "gap": "1.0–1.1",
   "torque": null,
@@ -854,6 +1162,11 @@
   "modelo": "F115 (2000–2013)",
   "tiempos": "4T",
   "motor": "4 cil.",
+  "potenciaTexto": "115 HP",
+  "potenciaValores": [
+   115
+  ],
+  "potenciaRangos": [],
   "bujia": "LFR6A-11",
   "gap": "1.1",
   "torque": null,
@@ -870,6 +1183,12 @@
   "modelo": "F200 / F225 (3.3 L V6, histórico)",
   "tiempos": "4T",
   "motor": "V6",
+  "potenciaTexto": "200 / 225 HP",
+  "potenciaValores": [
+   200,
+   225
+  ],
+  "potenciaRangos": [],
   "bujia": "LFR5A-11",
   "gap": "1.0–1.1",
   "torque": null,
@@ -886,6 +1205,14 @@
   "modelo": "2T 4–5 HP (histórico)",
   "tiempos": "2T",
   "motor": "1 cil.",
+  "potenciaTexto": "4–5 HP",
+  "potenciaValores": [],
+  "potenciaRangos": [
+   [
+    4,
+    5
+   ]
+  ],
   "bujia": "B7HS",
   "gap": "0.6",
   "torque": null,
@@ -902,6 +1229,14 @@
   "modelo": "2T 6–8 HP (histórico)",
   "tiempos": "2T",
   "motor": "—",
+  "potenciaTexto": "6–8 HP",
+  "potenciaValores": [],
+  "potenciaRangos": [
+   [
+    6,
+    8
+   ]
+  ],
   "bujia": "B7HS-10",
   "gap": "0.9",
   "torque": null,
@@ -918,6 +1253,14 @@
   "modelo": "2T 9.9–40 HP (histórico)",
   "tiempos": "2T",
   "motor": "—",
+  "potenciaTexto": "9.9–40 HP",
+  "potenciaValores": [],
+  "potenciaRangos": [
+   [
+    9.9,
+    40
+   ]
+  ],
   "bujia": "B7HS-10",
   "gap": "1.0",
   "torque": null,
@@ -934,6 +1277,14 @@
   "modelo": "2T 50–75 HP (histórico)",
   "tiempos": "2T",
   "motor": "—",
+  "potenciaTexto": "50–75 HP",
+  "potenciaValores": [],
+  "potenciaRangos": [
+   [
+    50,
+    75
+   ]
+  ],
   "bujia": "B8HS-10",
   "gap": "1.0",
   "torque": null,
@@ -950,6 +1301,11 @@
   "modelo": "2T 115 HP (histórico)",
   "tiempos": "2T",
   "motor": "4 cil.",
+  "potenciaTexto": "115 HP",
+  "potenciaValores": [
+   115
+  ],
+  "potenciaRangos": [],
   "bujia": "BR8HS-10",
   "gap": "1.0",
   "torque": null,
@@ -966,6 +1322,12 @@
   "modelo": "FourStroke 2.5 / 3.5",
   "tiempos": "4T",
   "motor": "1 cil.",
+  "potenciaTexto": "2.5 / 3.5 HP",
+  "potenciaValores": [
+   2.5,
+   3.5
+  ],
+  "potenciaRangos": [],
   "bujia": "DCPR6E",
   "gap": "0.84 (0.033\")",
   "torque": null,
@@ -982,6 +1344,13 @@
   "modelo": "FourStroke 4 / 5 / 6",
   "tiempos": "4T",
   "motor": "1 cil.",
+  "potenciaTexto": "4 / 5 / 6 HP",
+  "potenciaValores": [
+   4,
+   5,
+   6
+  ],
+  "potenciaRangos": [],
   "bujia": "DCPR6E",
   "gap": "0.9 (0.035\")",
   "torque": null,
@@ -998,6 +1367,14 @@
   "modelo": "FourStroke 8 / 9.9 / 15 / 20 (serie JPN nueva)",
   "tiempos": "4T",
   "motor": "2 cil.",
+  "potenciaTexto": "8 / 9.9 / 15 / 20 HP",
+  "potenciaValores": [
+   8,
+   9.9,
+   15,
+   20
+  ],
+  "potenciaRangos": [],
   "bujia": "DCPR6E",
   "gap": "0.84 (0.033\")",
   "torque": null,
@@ -1014,6 +1391,15 @@
   "modelo": "FourStroke 8 / 9.9 / 15 / 25 / 30 carburados (USA/BEL ant.)",
   "tiempos": "4T",
   "motor": "—",
+  "potenciaTexto": "8 / 9.9 / 15 / 25 / 30 HP",
+  "potenciaValores": [
+   8,
+   9.9,
+   15,
+   25,
+   30
+  ],
+  "potenciaRangos": [],
   "bujia": "DPR6EA-9",
   "gap": "0.9 (0.035\")",
   "torque": null,
@@ -1030,6 +1416,13 @@
   "modelo": "FourStroke 40 / 50 / 60 carburados",
   "tiempos": "4T",
   "motor": "—",
+  "potenciaTexto": "40 / 50 / 60 HP",
+  "potenciaValores": [
+   40,
+   50,
+   60
+  ],
+  "potenciaRangos": [],
   "bujia": "DPR6EA-9",
   "gap": "0.9 (0.035\")",
   "torque": null,
@@ -1046,6 +1439,13 @@
   "modelo": "FourStroke 40 / 50 / 60 EFI",
   "tiempos": "4T",
   "motor": "—",
+  "potenciaTexto": "40 / 50 / 60 HP",
+  "potenciaValores": [
+   40,
+   50,
+   60
+  ],
+  "potenciaRangos": [],
   "bujia": "DCPR7E",
   "gap": "0.7",
   "torque": null,
@@ -1062,6 +1462,12 @@
   "modelo": "FourStroke 75 / 90 de 1.596 cc (antiguo)",
   "tiempos": "4T",
   "motor": "4 cil., 1.596 cc",
+  "potenciaTexto": "75 / 90 HP",
+  "potenciaValores": [
+   75,
+   90
+  ],
+  "potenciaRangos": [],
   "bujia": "LFR5A-11",
   "gap": "1.1 (0.043\")",
   "torque": null,
@@ -1078,6 +1484,14 @@
   "modelo": "FourStroke 75–115 de 1.7 L",
   "tiempos": "4T",
   "motor": "4 cil.",
+  "potenciaTexto": "75–115 HP",
+  "potenciaValores": [],
+  "potenciaRangos": [
+   [
+    75,
+    115
+   ]
+  ],
   "bujia": "LFR4A-E",
   "gap": "0.8 (0.032\")",
   "torque": null,
@@ -1094,6 +1508,16 @@
   "modelo": "FourStroke 75–115 de 2.1 L y Pro XS 115",
   "tiempos": "4T",
   "motor": "4 cil.",
+  "potenciaTexto": "75–115 / 115 HP",
+  "potenciaValores": [
+   115
+  ],
+  "potenciaRangos": [
+   [
+    75,
+    115
+   ]
+  ],
   "bujia": "ZFR5F",
   "gap": "0.8 (0.032\")",
   "torque": null,
@@ -1110,6 +1534,11 @@
   "modelo": "FourStroke 115 EFI de 1.741 cc (antiguo)",
   "tiempos": "4T",
   "motor": "4 cil.",
+  "potenciaTexto": "115 HP",
+  "potenciaValores": [
+   115
+  ],
+  "potenciaRangos": [],
   "bujia": "LFR6A-11",
   "gap": "1.0 (0.041\")",
   "torque": null,
@@ -1126,6 +1555,11 @@
   "modelo": "FourStroke 150 EFI",
   "tiempos": "4T",
   "motor": "4 cil.",
+  "potenciaTexto": "150 HP",
+  "potenciaValores": [
+   150
+  ],
+  "potenciaRangos": [],
   "bujia": "ZFR5F",
   "gap": "0.8 (0.032\")",
   "torque": null,
@@ -1142,6 +1576,11 @@
   "modelo": "FourStroke 225 EFI de 3.0 L",
   "tiempos": "4T",
   "motor": "V6",
+  "potenciaTexto": "225 HP",
+  "potenciaValores": [
+   225
+  ],
+  "potenciaRangos": [],
   "bujia": "LFR5A-11",
   "gap": "1.1 (0.043\")",
   "torque": null,
@@ -1158,6 +1597,16 @@
   "modelo": "175–300 V6/V8 y 450R (serie 2B529482+)",
   "tiempos": "4T",
   "motor": "V6/V8",
+  "potenciaTexto": "175–300 / 450 HP",
+  "potenciaValores": [
+   450
+  ],
+  "potenciaRangos": [
+   [
+    175,
+    300
+   ]
+  ],
   "bujia": "LART7C-9",
   "gap": "0.9 (0.035\")",
   "torque": null,
@@ -1174,6 +1623,14 @@
   "modelo": "Verado 135–350",
   "tiempos": "4T",
   "motor": "—",
+  "potenciaTexto": "135–350 HP",
+  "potenciaValores": [],
+  "potenciaRangos": [
+   [
+    135,
+    350
+   ]
+  ],
   "bujia": "ILFR6GE",
   "gap": "0.8 (0.031\")",
   "torque": null,
@@ -1190,6 +1647,13 @@
   "modelo": "TwoStroke 2.5 / 3.3 / 3.5",
   "tiempos": "2T",
   "motor": "1 cil.",
+  "potenciaTexto": "2.5 / 3.3 / 3.5 HP",
+  "potenciaValores": [
+   2.5,
+   3.3,
+   3.5
+  ],
+  "potenciaRangos": [],
   "bujia": "BPR6HS-10",
   "gap": "1.0 (0.040\")",
   "torque": null,
@@ -1206,6 +1670,13 @@
   "modelo": "TwoStroke 3.6 / 4 / 5",
   "tiempos": "2T",
   "motor": "1 cil.",
+  "potenciaTexto": "3.6 / 4 / 5 HP",
+  "potenciaValores": [
+   3.6,
+   4,
+   5
+  ],
+  "potenciaRangos": [],
   "bujia": "BPR7HS-10",
   "gap": "1.0 (0.040\")",
   "torque": null,
@@ -1222,6 +1693,13 @@
   "modelo": "TwoStroke 6 / 8 / 9.9 (hasta 0G112449)",
   "tiempos": "2T",
   "motor": "—",
+  "potenciaTexto": "6 / 8 / 9.9 HP",
+  "potenciaValores": [
+   6,
+   8,
+   9.9
+  ],
+  "potenciaRangos": [],
   "bujia": "BPZ8H-N-10",
   "gap": "1.0 (0.040\")",
   "torque": null,
@@ -1238,6 +1716,13 @@
   "modelo": "TwoStroke 9.9 / 10 / 15 (series nuevas) y Sea Pro 15",
   "tiempos": "2T",
   "motor": "—",
+  "potenciaTexto": "9.9 / 10 / 15 HP",
+  "potenciaValores": [
+   9.9,
+   10,
+   15
+  ],
+  "potenciaRangos": [],
   "bujia": "BPZ8HS-15",
   "gap": "1.5 (0.060\")",
   "torque": null,
@@ -1254,6 +1739,14 @@
   "modelo": "TwoStroke 15 Super / Sea Pro XD / 18 / 20 / 25",
   "tiempos": "2T",
   "motor": "—",
+  "potenciaTexto": "15 / 18 / 20 / 25 HP",
+  "potenciaValores": [
+   15,
+   18,
+   20,
+   25
+  ],
+  "potenciaRangos": [],
   "bujia": "BPZ8H-N-10",
   "gap": "1.0 (0.040\")",
   "torque": null,
@@ -1270,6 +1763,15 @@
   "modelo": "TwoStroke 30 / 40 / 50 / 55 / 60 (3 cil., desde 0D000750)",
   "tiempos": "2T",
   "motor": "3 cil.",
+  "potenciaTexto": "30 / 40 / 50 / 55 / 60 HP",
+  "potenciaValores": [
+   30,
+   40,
+   50,
+   55,
+   60
+  ],
+  "potenciaRangos": [],
   "bujia": "BPZ8H-N-10",
   "gap": "1.0 (0.040\")",
   "torque": null,
@@ -1286,6 +1788,13 @@
   "modelo": "TwoStroke 100 / 115 / 125 (4 cil.)",
   "tiempos": "2T",
   "motor": "4 cil.",
+  "potenciaTexto": "100 / 115 / 125 HP",
+  "potenciaValores": [
+   100,
+   115,
+   125
+  ],
+  "potenciaRangos": [],
   "bujia": "BPZ8H-N-10",
   "gap": "1.0 (0.040\")",
   "torque": null,
@@ -1302,6 +1811,14 @@
   "modelo": "TwoStroke V6 150–300 (desde 0G960500)",
   "tiempos": "2T",
   "motor": "V6",
+  "potenciaTexto": "150–300 HP",
+  "potenciaValores": [],
+  "potenciaRangos": [
+   [
+    150,
+    300
+   ]
+  ],
   "bujia": "BPZ8HS-10",
   "gap": "1.0 (0.040\")",
   "torque": null,
@@ -1318,6 +1835,13 @@
   "modelo": "OptiMax 75 / 90 / 115 (1.5 L, 3 cil.)",
   "tiempos": "2T",
   "motor": "3 cil.",
+  "potenciaTexto": "75 / 90 / 115 HP",
+  "potenciaValores": [
+   75,
+   90,
+   115
+  ],
+  "potenciaRangos": [],
   "bujia": "IZFR5J",
   "gap": "0.8 (0.032\")",
   "torque": null,
@@ -1334,6 +1858,16 @@
   "modelo": "OptiMax V6 DFI 135–225 y Pro XS 200",
   "tiempos": "2T",
   "motor": "V6",
+  "potenciaTexto": "135–225 / 200 HP",
+  "potenciaValores": [
+   200
+  ],
+  "potenciaRangos": [
+   [
+    135,
+    225
+   ]
+  ],
   "bujia": "IZFR5G",
   "gap": "0.8 (0.032\")",
   "torque": null,
@@ -1350,6 +1884,14 @@
   "modelo": "OptiMax Pro XS 150–250",
   "tiempos": "2T",
   "motor": "V6",
+  "potenciaTexto": "150–250 HP",
+  "potenciaValores": [],
+  "potenciaRangos": [
+   [
+    150,
+    250
+   ]
+  ],
   "bujia": "IZFR6J",
   "gap": "1.1 (0.042\")",
   "torque": null,
@@ -1366,6 +1908,14 @@
   "modelo": "V6 antiguos carburados 135–300 HP",
   "tiempos": "2T",
   "motor": "V6",
+  "potenciaTexto": "135–300 HP",
+  "potenciaValores": [],
+  "potenciaRangos": [
+   [
+    135,
+    300
+   ]
+  ],
   "bujia": "BUZ8H",
   "gap": "Superficie",
   "torque": null,
@@ -1382,6 +1932,11 @@
   "modelo": "F-2.6 BMS",
   "tiempos": "4T",
   "motor": "1 cil.",
+  "potenciaTexto": "2.6 HP",
+  "potenciaValores": [
+   2.6
+  ],
+  "potenciaRangos": [],
   "bujia": "BR6HS",
   "gap": "0.6–0.7",
   "torque": null,
@@ -1398,6 +1953,11 @@
   "modelo": "F-5 BMS / BML",
   "tiempos": "4T",
   "motor": "1 cil., 112 cc",
+  "potenciaTexto": "5 HP",
+  "potenciaValores": [
+   5
+  ],
+  "potenciaRangos": [],
   "bujia": "BR6HS",
   "gap": "0.6–0.7",
   "torque": null,
@@ -1414,6 +1974,11 @@
   "modelo": "F-20 EBMS / EBML",
   "tiempos": "4T",
   "motor": "2 cil., 362 cc",
+  "potenciaTexto": "20 HP",
+  "potenciaValores": [
+   20
+  ],
+  "potenciaRangos": [],
   "bujia": "DPR7EA-9",
   "gap": "0.8–0.9",
   "torque": null,
@@ -1430,6 +1995,11 @@
   "modelo": "F-50 BEL-D-EFI / BEL-T-EFI / FEL-T-EFI",
   "tiempos": "4T",
   "motor": "4 cil., 996 cc",
+  "potenciaTexto": "50 HP",
+  "potenciaValores": [
+   50
+  ],
+  "potenciaRangos": [],
   "bujia": "DPR7EA-9",
   "gap": "0.8–0.9",
   "torque": "18",
@@ -1446,6 +2016,11 @@
   "modelo": "F-60 BEL-D-EFI / BEL-T-EFI / FEL-T-EFI",
   "tiempos": "4T",
   "motor": "4 cil., 996 cc",
+  "potenciaTexto": "60 HP",
+  "potenciaValores": [
+   60
+  ],
+  "potenciaRangos": [],
   "bujia": "DPR7EA-9",
   "gap": "0.8–0.9",
   "torque": "18",
@@ -1462,6 +2037,11 @@
   "modelo": "F-115 FEL-T-EFI / FEX-T-EFI",
   "tiempos": "4T",
   "motor": "4 cil., 1.832 cc",
+  "potenciaTexto": "115 HP",
+  "potenciaValores": [
+   115
+  ],
+  "potenciaRangos": [],
   "bujia": "LKR6E",
   "gap": "0.9",
   "torque": null,
@@ -1478,6 +2058,9 @@
   "modelo": "LT7 'peque peque' (motor 170F)",
   "tiempos": "4T",
   "motor": "1 cil., 208 cc",
+  "potenciaTexto": null,
+  "potenciaValores": [],
+  "potenciaRangos": [],
   "bujia": "BPR6ES",
   "gap": "0.7–0.8",
   "torque": null,
@@ -1494,6 +2077,11 @@
   "modelo": "T-2C BMS",
   "tiempos": "2T",
   "motor": "—",
+  "potenciaTexto": "2 HP",
+  "potenciaValores": [
+   2
+  ],
+  "potenciaRangos": [],
   "bujia": "BPR7HS",
   "gap": "0.7",
   "torque": null,
@@ -1510,6 +2098,11 @@
   "modelo": "T-3.6 BMS",
   "tiempos": "2T",
   "motor": "—",
+  "potenciaTexto": "3.6 HP",
+  "potenciaValores": [
+   3.6
+  ],
+  "potenciaRangos": [],
   "bujia": "BPR7HS-10",
   "gap": "1.0",
   "torque": null,
@@ -1526,6 +2119,11 @@
   "modelo": "T-5 BMS / BML",
   "tiempos": "2T",
   "motor": "—",
+  "potenciaTexto": "5 HP",
+  "potenciaValores": [
+   5
+  ],
+  "potenciaRangos": [],
   "bujia": "BPR7HS-10",
   "gap": "1.0",
   "torque": null,
@@ -1542,6 +2140,11 @@
   "modelo": "T-9.8 BMS / BML",
   "tiempos": "2T",
   "motor": "2 cil., 169 cc",
+  "potenciaTexto": "9.8 HP",
+  "potenciaValores": [
+   9.8
+  ],
+  "potenciaRangos": [],
   "bujia": "BPR7HS",
   "gap": "0.7",
   "torque": null,
@@ -1558,6 +2161,11 @@
   "modelo": "T-15 BMS / BML",
   "tiempos": "2T",
   "motor": "2 cil., 246 cc",
+  "potenciaTexto": "15 HP",
+  "potenciaValores": [
+   15
+  ],
+  "potenciaRangos": [],
   "bujia": "BPR7HS",
   "gap": "0.7",
   "torque": null,
@@ -1574,6 +2182,11 @@
   "modelo": "T-25 BMS / BML",
   "tiempos": "2T",
   "motor": "2 cil., 496 cc",
+  "potenciaTexto": "25 HP",
+  "potenciaValores": [
+   25
+  ],
+  "potenciaRangos": [],
   "bujia": "BPR7HS",
   "gap": "0.7",
   "torque": null,
@@ -1590,6 +2203,11 @@
   "modelo": "T-40 JBMS / JBML / GBML",
   "tiempos": "2T",
   "motor": "2 cil., 669 cc",
+  "potenciaTexto": "40 HP",
+  "potenciaValores": [
+   40
+  ],
+  "potenciaRangos": [],
   "bujia": "BPR7HS",
   "gap": "0.7",
   "torque": null,
@@ -1606,6 +2224,11 @@
   "modelo": "T-75 BML-D / BML-T / FEX-T",
   "tiempos": "2T",
   "motor": "3 cil., 1.141 cc",
+  "potenciaTexto": "75 HP",
+  "potenciaValores": [
+   75
+  ],
+  "potenciaRangos": [],
   "bujia": "BR8HS-10",
   "gap": "1.0",
   "torque": null,
@@ -1622,6 +2245,12 @@
   "modelo": "F5A / F6A (OHV)",
   "tiempos": "4T",
   "motor": "1 cil.",
+  "potenciaTexto": "5 / 6 HP",
+  "potenciaValores": [
+   5,
+   6
+  ],
+  "potenciaRangos": [],
   "bujia": "CR6HSA",
   "gap": "no confirmado",
   "torque": null,
@@ -1638,6 +2267,13 @@
   "modelo": "F6 / F8 / F9.8 (209 cc)",
   "tiempos": "4T",
   "motor": "2 cil., 209 cc",
+  "potenciaTexto": "6 / 8 / 9.8 HP",
+  "potenciaValores": [
+   6,
+   8,
+   9.8
+  ],
+  "potenciaRangos": [],
   "bujia": "DPR7EA-9",
   "gap": "0.8–0.9",
   "torque": "18",
@@ -1654,6 +2290,12 @@
   "modelo": "F9.9 / F15 (232 cc)",
   "tiempos": "4T",
   "motor": "2 cil., 232 cc",
+  "potenciaTexto": "9.9 / 15 HP",
+  "potenciaValores": [
+   9.9,
+   15
+  ],
+  "potenciaRangos": [],
   "bujia": "DPR6EA-9",
   "gap": "0.8–0.9",
   "torque": null,
@@ -1670,6 +2312,12 @@
   "modelo": "F20 / F25 (498 cc)",
   "tiempos": "4T",
   "motor": "2 cil., 498 cc",
+  "potenciaTexto": "20 / 25 HP",
+  "potenciaValores": [
+   20,
+   25
+  ],
+  "potenciaRangos": [],
   "bujia": "DPR7EA-9",
   "gap": "0.8–0.9",
   "torque": "17",
@@ -1686,6 +2334,12 @@
   "modelo": "F30 / F40 (747 cc)",
   "tiempos": "4T",
   "motor": "3 cil., 747 cc",
+  "potenciaTexto": "30 / 40 HP",
+  "potenciaValores": [
+   30,
+   40
+  ],
+  "potenciaRangos": [],
   "bujia": "DPR7EA-9",
   "gap": "0.8–0.9",
   "torque": "18",
@@ -1702,6 +2356,9 @@
   "modelo": "Sea-Doo Spark / Spark Trixx (900 ACE, 60 y 90 HP)",
   "tiempos": "4T",
   "motor": "3 cil., 900 cc",
+  "potenciaTexto": null,
+  "potenciaValores": [],
+  "potenciaRangos": [],
   "bujia": "CR8EB",
   "gap": "0.8",
   "torque": null,
@@ -1718,6 +2375,9 @@
   "modelo": "Sea-Doo GTI / GTI SE 130 y 170, GTX 170 y 230, Wake Pro 230 (2021+)",
   "tiempos": "4T",
   "motor": "3 cil., 1630 ACE",
+  "potenciaTexto": null,
+  "potenciaValores": [],
+  "potenciaRangos": [],
   "bujia": "DCPR8E",
   "gap": "0.7",
   "torque": null,
@@ -1734,6 +2394,9 @@
   "modelo": "Sea-Doo Fish Pro / Explorer Pro (1630 ACE)",
   "tiempos": "4T",
   "motor": "3 cil.",
+  "potenciaTexto": null,
+  "potenciaValores": [],
+  "potenciaRangos": [],
   "bujia": "DCPR8E",
   "gap": "0.7",
   "torque": null,
@@ -1750,6 +2413,9 @@
   "modelo": "Sea-Doo RXP-X / RXT-X / GTX Limited / GTR-X 300 (2018+)",
   "tiempos": "4T",
   "motor": "3 cil., 1630 ACE sobrealimentado",
+  "potenciaTexto": null,
+  "potenciaValores": [],
+  "potenciaRangos": [],
   "bujia": "KR9E-G",
   "gap": "0.8",
   "torque": null,
@@ -1766,6 +2432,9 @@
   "modelo": "Sea-Doo RXP-X / RXT-X 325 SS (2024+)",
   "tiempos": "4T",
   "motor": "3 cil., 1630 ACE sobrealimentado",
+  "potenciaTexto": null,
+  "potenciaValores": [],
+  "potenciaRangos": [],
   "bujia": "KR9E-G",
   "gap": "0.8",
   "torque": null,
@@ -1782,6 +2451,9 @@
   "modelo": "Sea-Doo 4-TEC 1503 (GTI, GTX, RXP, RXT, Wake; 2007–2015)",
   "tiempos": "4T",
   "motor": "3 cil., 1503 cc",
+  "potenciaTexto": null,
+  "potenciaValores": [],
+  "potenciaRangos": [],
   "bujia": "DCPR8E",
   "gap": "0.7–0.8",
   "torque": null,
@@ -1798,6 +2470,9 @@
   "modelo": "Sea-Doo GTR / GTX 230 (1500 HO ACE, 2017)",
   "tiempos": "4T",
   "motor": "3 cil., 1500 cc",
+  "potenciaTexto": null,
+  "potenciaValores": [],
+  "potenciaRangos": [],
   "bujia": "DCPR8E",
   "gap": "0.7–0.8",
   "torque": null,
@@ -1814,6 +2489,9 @@
   "modelo": "Sea-Doo 2T carburados 717 / 787 / 947 (1997–2002)",
   "tiempos": "2T",
   "motor": "2 cil.",
+  "potenciaTexto": null,
+  "potenciaValores": [],
+  "potenciaRangos": [],
   "bujia": "BR8ES",
   "gap": "0.7–0.8",
   "torque": null,
@@ -1830,6 +2508,9 @@
   "modelo": "Sea-Doo 2T inyección directa 947 DI (2000–2004)",
   "tiempos": "2T",
   "motor": "2 cil.",
+  "potenciaTexto": null,
+  "potenciaValores": [],
+  "potenciaRangos": [],
   "bujia": "ZFR4F-11",
   "gap": "1.1",
   "torque": null,
@@ -1846,6 +2527,9 @@
   "modelo": "Yamaha WaveRunner EX / VX (TR-1 1049 cc, 2016+)",
   "tiempos": "4T",
   "motor": "3 cil., 1049 cc",
+  "potenciaTexto": null,
+  "potenciaValores": [],
+  "potenciaRangos": [],
   "bujia": "CR9EB",
   "gap": "0.9",
   "torque": null,
@@ -1862,6 +2546,9 @@
   "modelo": "Yamaha WaveRunner VX / FX / V1 de 1.0 L (2004–2012)",
   "tiempos": "4T",
   "motor": "4 cil., 1052 cc",
+  "potenciaTexto": null,
+  "potenciaValores": [],
+  "potenciaRangos": [],
   "bujia": "CR9EB",
   "gap": "0.9",
   "torque": null,
@@ -1878,6 +2565,9 @@
   "modelo": "Yamaha WaveRunner FX HO / FX Cruiser / VXR / VXS / FZR / FZS (1.8 L, 2009–2017)",
   "tiempos": "4T",
   "motor": "4 cil., 1812 cc",
+  "potenciaTexto": null,
+  "potenciaValores": [],
+  "potenciaRangos": [],
   "bujia": "LFR6A",
   "gap": "0.9–1.0",
   "torque": null,
@@ -1894,6 +2584,9 @@
   "modelo": "Yamaha WaveRunner FX SVHO / FZR SVHO (2014–2016)",
   "tiempos": "4T",
   "motor": "4 cil., 1812 cc sobrealimentado",
+  "potenciaTexto": null,
+  "potenciaValores": [],
+  "potenciaRangos": [],
   "bujia": "LFR7A",
   "gap": "0.9",
   "torque": null,
@@ -1910,6 +2603,9 @@
   "modelo": "Yamaha WaveRunner GP1200R / GP1300R (1999–2008)",
   "tiempos": "2T",
   "motor": "3 cil.",
+  "potenciaTexto": null,
+  "potenciaValores": [],
+  "potenciaRangos": [],
   "bujia": "BR8ES-11",
   "gap": "1.1",
   "torque": null,
@@ -1926,6 +2622,9 @@
   "modelo": "Kawasaki Jet Ski STX-15F / Ultra LX (2004 en adelante)",
   "tiempos": "4T",
   "motor": "4 cil.",
+  "potenciaTexto": null,
+  "potenciaValores": [],
+  "potenciaRangos": [],
   "bujia": "CR9EK",
   "gap": "0.9",
   "torque": null,
@@ -1942,6 +2641,9 @@
   "modelo": "Kawasaki Jet Ski SX-R 800 / STX 800 (2T, 1992–2011)",
   "tiempos": "2T",
   "motor": "2 cil.",
+  "potenciaTexto": null,
+  "potenciaValores": [],
+  "potenciaRangos": [],
   "bujia": "BR8ES",
   "gap": "0.7–0.8",
   "torque": null,

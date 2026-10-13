@@ -10,6 +10,9 @@ export interface Entrada {
   modelo: string;
   tiempos: '2T' | '4T' | null;
   motor: string | null;
+  potenciaTexto: string | null;
+  potenciaValores: number[];
+  potenciaRangos: number[][];
   bujia: string;
   gap: string | null;
   torque: string | null;
@@ -42,11 +45,41 @@ export function modelosDe(categoria: Categoria, marca: string, data: Entrada[] =
 const norm = (s: string) =>
   s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/[\s\-_/]+/g, '');
 
+/** Potencias (HP) que aparecen en los nombres de modelo de una marca, de menor a mayor. */
+export function potenciasDe(categoria: Categoria, marca: string, data: Entrada[] = catalogo): number[] {
+  const hp = new Set<number>();
+  for (const e of modelosDe(categoria, marca, data)) {
+    e.potenciaValores.forEach((v) => hp.add(v));
+    e.potenciaRangos.forEach(([a, b]) => { hp.add(a); hp.add(b); });
+  }
+  return [...hp].sort((a, b) => a - b);
+}
+
+export function atiendePotencia(e: Entrada, hp: number): boolean {
+  return e.potenciaValores.includes(hp) || e.potenciaRangos.some(([a, b]) => hp >= a && hp <= b);
+}
+
+/** Filtro de la pantalla Consulta: categoría + marca + potencia (HP) + modelo exacto, todos opcionales salvo categoría. */
+export function filtrar(
+  f: { categoria?: Categoria; marca?: string; potencia?: number; modeloId?: string },
+  data: Entrada[] = catalogo,
+): Entrada[] {
+  return data
+    .filter(
+      (e) =>
+        (!f.categoria || e.categoria === f.categoria) &&
+        (!f.marca || e.marca === f.marca) &&
+        (f.potencia === undefined || atiendePotencia(e, f.potencia)) &&
+        (!f.modeloId || e.id === f.modeloId),
+    )
+    .sort((a, b) => ordenar(a.modelo, b.modelo));
+}
+
 /** Busca por referencia de bujía, marca o modelo (sin tildes, espacios ni guiones). */
 export function buscar(consulta: string, data: Entrada[] = catalogo): Entrada[] {
   const q = norm(consulta);
   if (!q) return [];
-  return data.filter((e) => norm(`${e.marca}${e.modelo}${e.bujia}`).includes(q)).sort((a, b) =>
+  return data.filter((e) => norm(`${e.marca}${e.modelo}${e.bujia}${e.potenciaTexto ?? ''}`).includes(q)).sort((a, b) =>
     ordenar(`${a.marca} ${a.modelo}`, `${b.marca} ${b.modelo}`),
   );
 }

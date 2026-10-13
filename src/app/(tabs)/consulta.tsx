@@ -5,20 +5,22 @@ import { router, useLocalSearchParams } from 'expo-router';
 import { colores, radio } from '../../theme';
 import { Boton } from '../../components/Boton';
 import { Selector } from '../../components/Selector';
-import { CATEGORIAS, marcasDe, modelosDe, type Categoria } from '../../lib/catalogo';
+import { CATEGORIAS, filtrar, marcasDe, potenciasDe, type Categoria } from '../../lib/catalogo';
 
 export default function Consulta() {
   const params = useLocalSearchParams<{ categoria?: Categoria }>();
   const [categoria, setCategoria] = useState<Categoria>(params.categoria ?? 'fuera_de_borda');
   const [marca, setMarca] = useState<string | null>(null);
+  const [potencia, setPotencia] = useState<string | null>(null);
   const [modelo, setModelo] = useState<string | null>(null);
 
   const marcas = marcasDe(categoria);
-  const modelos = marca ? modelosDe(categoria, marca) : [];
+  const potencias = marca ? potenciasDe(categoria, marca) : [];
+  const modelos = marca ? filtrar({ categoria, marca, potencia: potencia ? Number(potencia) : undefined }) : [];
 
   const consultar = () => {
     if (!marca) return;
-    router.push({ pathname: '/resultados', params: { categoria, marca, ...(modelo ? { modelo } : {}) } });
+    router.push({ pathname: '/resultados', params: { categoria, marca, ...(potencia ? { potencia } : {}), ...(modelo ? { modelo } : {}) } });
   };
 
   return (
@@ -27,14 +29,23 @@ export default function Consulta() {
         etiqueta="Tipo de motor"
         valor={categoria}
         opciones={CATEGORIAS.map((c) => ({ clave: c.id, texto: c.nombre }))}
-        alElegir={(c) => { setCategoria(c as Categoria); setMarca(null); setModelo(null); }}
+        alElegir={(c) => { setCategoria(c as Categoria); setMarca(null); setPotencia(null); setModelo(null); }}
       />
       <Selector
         etiqueta="Marca"
         valor={marca}
         opciones={marcas.map((m) => ({ clave: m, texto: m }))}
-        alElegir={(m) => { setMarca(m); setModelo(null); }}
+        alElegir={(m) => { setMarca(m); setPotencia(null); setModelo(null); }}
       />
+      {potencias.length > 0 && (
+        <Selector
+          etiqueta="Potencia (HP, según el nombre del modelo)"
+          placeholder="Todas las potencias"
+          valor={potencia}
+          opciones={potencias.map((p) => ({ clave: String(p), texto: `${p} HP` }))}
+          alElegir={(p) => { setPotencia(p); setModelo(null); }}
+        />
+      )}
       <Selector
         etiqueta="Modelo (opcional)"
         placeholder={marca ? 'Todos los modelos de la marca' : 'Elige primero la marca'}

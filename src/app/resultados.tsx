@@ -2,19 +2,17 @@ import { FlatList, StyleSheet, Text, View } from 'react-native';
 import { useLocalSearchParams } from 'expo-router';
 import { colores } from '../theme';
 import { TarjetaResultado } from '../components/TarjetaResultado';
-import { buscar, catalogo, type Categoria } from '../lib/catalogo';
+import { buscar, filtrar, type Categoria } from '../lib/catalogo';
 
 export default function Resultados() {
-  const { q, categoria, marca, modelo } = useLocalSearchParams<{
-    q?: string; categoria?: Categoria; marca?: string; modelo?: string;
+  const { q, categoria, marca, potencia, modelo } = useLocalSearchParams<{
+    q?: string; categoria?: Categoria; marca?: string; potencia?: string; modelo?: string;
   }>();
 
   const datos = q
     ? buscar(q)
-    : catalogo.filter(
-        (e) => (!categoria || e.categoria === categoria) && (!marca || e.marca === marca) && (!modelo || e.id === modelo),
-      );
-  const titulo = q ? `Resultados para "${q}"` : [marca, modelos(modelo, datos)].filter(Boolean).join(' · ') || 'Todos los motores';
+    : filtrar({ categoria, marca, potencia: potencia ? Number(potencia) : undefined, modeloId: modelo });
+  const titulo = q ? `Resultados para "${q}"` : [marca, potencia ? `${potencia} HP` : null, modelos(modelo, datos)].filter(Boolean).join(' · ') || 'Todos los motores';
 
   return (
     <FlatList
