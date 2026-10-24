@@ -26,7 +26,8 @@
       "expo-router"
     ],
     "experiments": {
-      "typedRoutes": true
+      "typedRoutes": true,
+      "baseUrl": "/App_Movil_Bujias_Motores_FB"
     }
   }
 }
